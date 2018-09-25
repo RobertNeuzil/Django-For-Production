@@ -70,19 +70,19 @@
 
     <!-- Main Content -->
  
-          {% for x in posts %}
+          {% for post in posts %}
           
           <div class="post-preview">
             <a href="post.html">
               <h2 class="post-title">
-                {{ x.title }}
+                {{ post.title }}
               </h2>
               <h3 class="post-subtitle">
-                {{ x.date }}
+                {{ post.date }}
               </h3>
             </a>
             <p class="post-meta">Posted by
-              <a href="#">{{ x.author }}</p>
+              <a href="#">{{ post.author }}</p>
           </div>
           {% endfor %}
           <!-- Pager -->
