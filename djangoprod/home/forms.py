@@ -4,7 +4,7 @@ class EntryForm(forms.Form):
 	author = forms.CharField(max_length=40,
 		widget=forms.TextInput(
 			attrs={
-
+			'class': 'form-group floating-label-form-group controls',
 			'class': 'form-control',
 			'placeholder': 'Author',
 			'id': 'Author',
@@ -12,7 +12,7 @@ class EntryForm(forms.Form):
 	date = forms.CharField(max_length=40,
 		widget = forms.TextInput(
 			attrs={
-
+			'class': 'form-group floating-label-form-group controls',
 			'class': 'form-control',
 			'placeholder': 'Date',
 			'id': 'Date',
@@ -24,11 +24,13 @@ class EntryForm(forms.Form):
 	message = forms.CharField(max_length=200,
 		widget = forms.TextInput(
 			attrs={
-			
+			'class': 'form-group floating-label-form-group controls',
 			'class': 'form-control',
-			'placeholder': 'message',
+			'placeholder': 'Message',
 			'id': 'message',
 			'required data-validation-required-message': 'Please enter a Message',
+			'rows': '50',
+			'col': '50'
 
 
 
