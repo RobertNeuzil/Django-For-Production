@@ -44,6 +44,7 @@ blockquote {
   color: #868e96;
 }
 
+
 .section-heading {
   font-size: 36px;
   font-weight: 700;
@@ -323,6 +324,7 @@ header.masthead .post-heading .meta a {
   margin-bottom: 0;
   padding-bottom: 0.5em;
   border-bottom: 1px solid #dee2e6;
+
 }
 
 .floating-label-form-group input,
@@ -338,12 +340,16 @@ header.masthead .post-heading .meta a {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   font-family: 'Lora', 'Times New Roman', serif;
+  
+  
 }
 
 .floating-label-form-group input::-webkit-input-placeholder,
 .floating-label-form-group textarea::-webkit-input-placeholder {
   color: #868e96;
   font-family: 'Lora', 'Times New Roman', serif;
+  border-color: #0085A1;
+
 }
 
 .floating-label-form-group label {
@@ -359,19 +365,24 @@ header.masthead .post-heading .meta a {
   vertical-align: middle;
   vertical-align: baseline;
   opacity: 0;
+  border-color: #0085A1;
+
 }
 
 .floating-label-form-group .help-block {
   margin: 15px 0;
+  border: solid;
 }
 
 .floating-label-form-group-with-value label {
   top: 0;
   opacity: 1;
+
 }
 
 .floating-label-form-group-with-focus label {
   color: #0085A1;
+
 }
 
 form .form-group:first-child .floating-label-form-group {
